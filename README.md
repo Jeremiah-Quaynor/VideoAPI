@@ -1,27 +1,46 @@
 <!-- genrate a readme for the API -->
 <!-- ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) -->
 
-# README Generator
-
-## Description
-
-This is a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
+# VIDEO API
 
 ```sh
-
-node index.js
-
+flask run
 ```
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributions](#contributions)
-- [Tests](#tests)
-- [Questions](#questions)
-- [Credits](#credits)
-- [Badges](#badges)
-- [Features](#features)
-- [How to Contribute](#how-to-contribute)
+- [VIDEO API](#video-api)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Start the Server](#start-the-server)
+  - [Usage](#usage)
+
+## Description
+This is a VideoAPI created using flask and flask-restfull.
+
+
+## Installation
+```sh
+    . .venv/bin/activate
+    pip install -r requirements.txt
+    export FLASK_APP=main.py
+```
+
+## Start the Server
+```sh
+    flask run 
+```
+or 
+```sh
+    python main.py
+```
+
+
+## Usage
+```sh
+    http://localhost:5000/
+```
+
+
+
