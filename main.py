@@ -28,6 +28,12 @@ class Video(Resource):
         videos[video_id] = new_video
         return videos, 200
 
+    def delete(self, video_id): 
+        if video_id not in videos : 
+            return f"Video {video_id} not found", 200
+        else:
+            del videos[video_id]
+            return videos, 200
 
 api.add_resource(Video, "/<video_id>")
 

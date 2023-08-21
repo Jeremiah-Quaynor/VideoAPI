@@ -1,15 +1,11 @@
 <!-- genrate a readme for the API -->
 <!-- ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) -->
 
-# VIDEO API
-
-```sh
-flask run
-```
+# VIDEO API Documentation
 
 ## Table of Contents
 
-- [VIDEO API](#video-api)
+- [VIDEO API Documentation](#video-api-documentation)
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Installation](#installation)
